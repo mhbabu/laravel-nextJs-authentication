@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../../store/hooks';
 import { registerUser, clearError } from '../../store/slices/authSlice';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 export default function RegisterForm() {
@@ -37,11 +36,11 @@ export default function RegisterForm() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
       <div className="relative flex flex-col md:flex-row bg-white rounded-2xl shadow-2xl overflow-hidden max-w-4xl w-full">
         {/* Left Section with Illustration */}
         <div className="relative w-full md:w-1/2 bg-gradient-to-br from-blue-500 to-indigo-600 p-8 flex items-center justify-center">
-          <Image src="/images/login-illustration.svg" alt="Register Illustration" width={300} height={300} />
+          <img src="/images/login-illustration.svg" alt="Login Illustration" width={300} height={300} />
         </div>
 
         {/* Right Section with Register Form */}
