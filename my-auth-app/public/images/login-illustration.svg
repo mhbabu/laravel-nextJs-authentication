@@ -1,0 +1,26 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background elements -->
+    <rect x="0" y="0" width="300" height="300" fill="white"/>
+    <circle cx="20" cy="100" r="5" fill="#D1D5DB"/>
+    <rect x="50" y="150" width="80" height="5" rx="2.5" fill="#D1D5DB"/>
+    <circle cx="200" cy="230" r="5" fill="#D1D5DB"/>
+
+    <!-- Orange Shopping Bag -->
+    <rect x="50" y="80" width="120" height="100" rx="10" fill="#FB923C"/>
+    <path d="M70 70C70 58.9543 78.9543 50 90 50H130C141.046 50 150 58.9543 150 70V80H70V70Z" fill="#FB923C"/>
+
+    <!-- Blue T-shirt box -->
+    <rect x="110" y="110" width="100" height="80" rx="8" fill="#3B82F6"/>
+    <path d="M140 120L150 130L160 120H170L160 140L170 160H160L150 150L140 160H130L140 140L130 120H140Z" fill="white"/>
+
+    <!-- Yellow Dollar Sign Circle -->
+    <circle cx="200" cy="180" r="20" fill="#FBBF24"/>
+    <path d="M195 170H205M200 165V195M190 175C190 172.238 192.238 170 195 170H205C207.762 170 210 172.238 210 175V185C210 187.762 207.762 190 205 190H195C192.238 190 190 187.762 190 185V175Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Grey Heart (like) -->
+    <path d="M175 75C175 68.3695 172.366 62.0107 167.678 57.3223C162.989 52.6339 156.63 50 150 50C143.37 50 137.011 52.6339 132.322 57.3223L125 64.6447L117.678 57.3223C112.989 52.6339 106.63 50 100 50C93.3695 50 87.0107 52.6339 82.3223 57.3223C77.6339 62.0107 75 68.3695 75 75C75 100 100 120 125 140C150 120 175 100 175 75Z" fill="#D1D5DB"/>
+
+    <!-- BUY Button -->
+    <rect x="50" y="210" width="100" height="40" rx="8" fill="#4285F4"/>
+    <text x="75" y="235" font-family="Arial" font-size="20" fill="white" font-weight="bold">BUY</text>
+</svg>
