@@ -1,0 +1,41 @@
+# -------------------------------------------------
+# Next.js project (my-auth-app)
+# -------------------------------------------------
+my-auth-app/node_modules/
+my-auth-app/.next/
+my-auth-app/out/
+my-auth-app/dist/
+my-auth-app/.env
+my-auth-app/.env.local
+my-auth-app/.env.*.local
+my-auth-app/npm-debug.log*
+my-auth-app/yarn-debug.log*
+nextbreeze/yarn-error.log*
+
+# -------------------------------------------------
+# Laravel project (backend-api)
+# -------------------------------------------------
+reverb-api-next/vendor/
+reverb-api-next/node_modules/
+reverb-api-next/build/
+reverb-api-next/storage/
+reverb-api-next/public/storage
+reverb-api-next/.env
+my-auth-app/.env.*
+!my-auth-app/.env.example
+my-auth-app/storage/*.key
+my-auth-app/storage/app/*
+my-auth-app/storage/framework/*
+my-auth-app/storage/logs/*
+
+# -------------------------------------------------
+# Common system/editor files
+# -------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+*.tmp
